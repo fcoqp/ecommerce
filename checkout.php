@@ -4,7 +4,7 @@ session_start();
 require 'vendor/autoload.php';
 
 // Configura clave secreta de Stripe
-\Stripe\Stripe::setApiKey('sk_test_51SlAbyHLwGM8egU0vqWtUQgmU2IgV8YRDrDsm8DvbJUkxAys2U3VtiLfG7OuQmKEFuWV4D8nmSvEoJbc5tt1DsV900igzkRiIr');
+\Stripe\Stripe::setApiKey('');
 
 include 'includes/conectar_db.php';
 $con = conectar();
