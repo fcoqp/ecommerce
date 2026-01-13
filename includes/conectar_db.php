@@ -1,10 +1,10 @@
 <?php
 // Conexión a la base de datos usando PDO
 function conectar() {
-    $host = 'sql100.infinityfree.com';
-    $dbname = 'if0_40596577_ecommerce'; // Nombre correcto de tu base de datos
-    $user = 'if0_40596577';         // Cambia si es necesario
-    $pass = 'IffTgUyo53k8j4';             // Cambia si es necesario
+    $host = '';
+    $dbname = '';
+    $user = '';
+    $pass = '';
     $charset = 'utf8mb4';
 
     $dsn = "mysql:host=$host;dbname=$dbname;charset=$charset";
